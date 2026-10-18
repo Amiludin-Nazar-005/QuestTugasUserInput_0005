@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">tugas_Prak_pam_5</string>
+    <string name="form_title">Form Biodata</string>
+    <string name="form_subtitle">Silahkan isi biodata Anda dibawah ini !!!</string>
+    <string name="hint_first_name">Nama Depan</string>
+    <string name="hint_last_name">Nama Belakang</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_birth_date">Tgl Lahir</string>
+    <string name="hint_experience">Experience</string>
+    <string name="label_skill">Pilih Skill Anda :</string>
+    <string name="skill_android">Android</string>
+    <string name="skill_uiux">UI/UX</string>
+    <string name="skill_web">Web</string>
+    <string name="btn_proceed">Proceed</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="msg_success">Biodata berhasil disimpan</string>
+    <string name="cd_background">Gambar latar neon laba-laba</string>
+    <string name="cd_calendar">Pilih tanggal lahir</string>
+    <string name="cd_dropdown">Buka pilihan experience</string>
+    <string name="date_pattern" translatable="false">dd/MM/yyyy</string>
+
+</resources>
