@@ -45,5 +45,6 @@ fun DateField(
             colors = biodataFieldColors(),
             modifier = Modifier.fillMaxWidth().height(dimensionResource(R.dimen.field_height))
         )
+        Box(Modifier.matchParentSize().clickable { showDialog = true })
 
 
