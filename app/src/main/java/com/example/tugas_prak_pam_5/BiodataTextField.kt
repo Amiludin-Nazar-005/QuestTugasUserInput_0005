@@ -6,9 +6,11 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
@@ -34,3 +36,14 @@ fun BiodataTextField(
     colors = biodataFieldColors(),
     modifier = modifier.height(dimensionResource(R.dimen.field_height))
 )}
+
+@Composable
+fun biodataFieldColors() = OutlinedTextFieldDefaults.colors(
+    focusedBorderColor = colorResource(R.color.title_purple),
+    unfocusedBorderColor = colorResource(R.color.field_border),
+    focusedTextColor = colorResource(R.color.text_primary),
+    unfocusedTextColor = colorResource(R.color.text_primary),
+    focusedPlaceholderColor = colorResource(R.color.text_primary),
+    unfocusedPlaceholderColor = colorResource(R.color.text_primary),
+    cursorColor = colorResource(R.color.title_purple)
+)
